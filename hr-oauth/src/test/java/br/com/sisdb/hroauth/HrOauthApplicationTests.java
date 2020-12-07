@@ -1,4 +1,4 @@
-package br.com.sisdb.hrouth;
+package br.com.sisdb.hroauth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
