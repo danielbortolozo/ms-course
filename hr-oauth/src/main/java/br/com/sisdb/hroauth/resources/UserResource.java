@@ -21,6 +21,7 @@ public class UserResource {
     @GetMapping("/search")
     public ResponseEntity<User> findByEmail(@RequestParam String email){
         try {
+            System.out.println("Entrei aqui..");
             User user = service.findByEmail(email);
             return ResponseEntity.ok(user);
         }catch (IllegalArgumentException e) {

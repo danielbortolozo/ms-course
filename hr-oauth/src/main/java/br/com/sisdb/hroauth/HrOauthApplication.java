@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @EnableEurekaClient
 @SpringBootApplication
-@ComponentScan("br.com.sisdb.hroauth")
 public class HrOauthApplication {
 
 	public static void main(String[] args) {
